@@ -1,0 +1,112 @@
+.baap{
+    background-color: #FEFBE9;
+}
+.baapl{
+  width: 50%;
+  font-size: 1.2rem;
+}
+.bada{
+  font-size: 1.2rem;
+}
+.work{
+  margin-bottom: 20px;
+}
+.schema{
+  width: 50%;
+}
+.logo {
+  display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.logo:hover{
+  transform: scale(1.2);
+}
+.row{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.center {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .display-4 {
+    font-size: 2.5rem;
+  }
+  .bottom-container{
+    background-color: #F5EAEA;
+    padding: 50px 0 20px;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+.cursive{
+  font-family:'Monotype Corsiva','Apple Chancery','ITC Zapf Chancery','URW Chancery L',cursive;
+}
+img {
+    width: 400px;
+    height: 300px
+}
+p{
+  line-height: 2;
+}
+.copyright{
+  color:#000000;
+  font-size: 1rem;
+  padding: 20px 0;
+}
+a:hover{
+  color: #f0f0f0a1;
+}
+a{
+  color: #7b8952;
+  font-family: 'Merriweather', serif;
+  text-decoration: none;
+}
+.footer-link{
+  padding:20px;
+  margin-top: 30px;
+  color: black;
+}
+.drop{
+  margin: 10px;
+}
+#chart-container{
+  margin-top: 40px;
+}
+.upar{
+  margin-top: 10px;
+}  
+#crime-select{
+  width: 50%;
+}
+.head{
+  text-align: center;
+  margin: 40px;
+}
+.head2{
+  text-align: center;
+  margin-top: 20px;
+}
+.diag{
+  margin-top: 20px;
+}
+div {
+  margin: 0 auto;
+}
+.back{
+  text-align: center;
+}
+.center2{
+  text-align: center;
+}
+@media (max-width:1028px)
+{
+  .schema{
+    width: 80%;
+  }
+  .logo{
+    width: 50%;
+  }
+}

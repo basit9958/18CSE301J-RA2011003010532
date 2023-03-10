@@ -1,34 +1,126 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
+    <title>Homepage</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+        }
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        nav {
+            background-color: #eee;
+            padding: 10px ;
+            text-align: center;
+        }
 
-    <title>Basit Hasan</title>
+        nav a {
+            display: inline-block;
+            padding: 5px 10px;
+            margin: 5px;
+            color: #333;
+            background-color: #fff;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.2s;
+        }
 
+        nav a:hover {
+            background-color: #333;
+            color: #fff;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-top: 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Style for the main content */
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+        /* Style for the section titles */
+        h2 {
+            font-size: 28px;
+            font-weight: bold;
+            margin-top: 50px;
+        }
+
+        /* Style for the dataset information */
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        /* Style for the source link */
+        .source-link {
+            display: block;
+            margin-top: 20px;
+            font-size: 16px;
+        }
+    </style>
 </head>
 
 <body>
+    <header>
+        <h1>Alchohol Consumption Dataset</h1>
+    </header>
+    <nav>
+        <a href="webpages\tableau.html">Tableau Visualization</a>
+        <a href="\webpages\gephi.html">Gephi Visualization</a>
+        <a href="\webpages\Python.html">Python Visualization</a>
+        <a href="\webpages\d3.html">D3.js Visualization</a>
+    </nav>
 
-    
+    <section>
+        <h1>18CSE301J RA2011003010532</h1>
+        <p>information Visualization Project By Basit Hasan</p>
+    </section>
 
-  <center> <h1>18CSE301J INFORMATION VISUALIZATION</h1>
+    <main>
+        <h2>About the Dataset</h2>
+        <p>The <a href="https://github.com/fivethirtyeight/data/tree/master/alcohol-consumption">Alcohol Consumption Dataset</a>
+          contains information on alcohol consumption patterns across different countries. The dataset consists of five attributes: country, beer servings, spirit servings, wine servings, and total litres of pure alcohol. The beer servings attribute indicates the average annual consumption of beer in liters per capita, while the spirit servings attribute indicates the average annual consumption of spirits in liters per capita. The wine servings attribute indicates the average annual consumption of wine in liters per capita. The total litres of pure alcohol attribute indicates the total annual consumption of pure alcohol in liters per capita. The dataset provides insights into the cultural and socioeconomic factors that influence alcohol consumption patterns, as well as the potential health outcomes associated with excessive alcohol consumption.</p>
 
-    <h1>Basit Hasan</h1>
+        <h2>Data Analysis and Visualization</h2>
+        <p>TIn data analysis, we can use descriptive statistics to understand the distribution of the data, such as mean, median, mode, standard deviation, and range. We can also use visualizations such as histograms, scatter plots, and box plots to explore the relationships between different attributes.
 
-<br>
+            One assumption in analyzing this dataset could be that the reported values for alcohol consumption are accurate and representative of the true consumption levels in each country. However, this assumption may not always hold true due to variations in data collection methods and cultural differences in alcohol reporting.
+        </p>
 
-<br>
+        <h2>Limitations of the Dataset</h2>
+        <p>Limitation of this dataset is that it only provides information on average alcohol consumption at the country level, and does not account for variations within countries or differences in subpopulations. Additionally, the dataset does not provide information on the patterns and reasons for alcohol consumption, which could be useful in understanding the underlying factors influencing consumption behaviors.</p>
 
-<div class='tableauPlaceholder' id='viz1678036525296' style='position: relative'><noscript><a href='#'><img alt='Dashboard 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_16780364549210&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Book1_16780364549210&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_16780364549210&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1678036525296');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='1277px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-</center> 
-
+        <div class="source-link">
+            <p>Source: <a href="https://github.com/fivethirtyeight/data/tree/master/alcohol-consumption">FiveThirtyEight
+                    GitHub Repository</a></p>
+        </div>
+    </main>        
 </body>
 
 </html>
